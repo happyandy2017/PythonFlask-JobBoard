@@ -9,8 +9,10 @@
       <div class="content">
           <p>
            <a href = "" > {{job['employer_name']}} </a><br>
-           ${{job['salary']}} <br>
-           {{job['description']}}
+           Ax: ${{job['salary']}} <br>
+           Ayz: ${{job['salary']}} <br>
+           SnS: ${{job['salary']}} <br>
+           Normalized rop: {{job['description']}}
           </p>
       </div>
     </div>
@@ -23,6 +25,6 @@
       <div class="column is-half" >
       {{ show_job(job)}}
       </div>
-  </div>
   {% endfor %}
+  </div>
 {% endmacro %}
